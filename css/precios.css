@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root {
+    --principal-color: #D40D84;
+    --titulos: 'Chango', cursive;
+    --texto: 'PT Sans', sans-serif;
+  }
+
+
+.precios {
+    width: 100%;
+    margin: auto;
+}
+
+.precios__lugar {
+    color:var(--principal-color);
+    font-family: var(--titulos);
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 1rem;
+}
+
+.precios__cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precios__caja {
+    background-color: #aaa;
+    margin: 1rem 0;
+    width: 70%;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precios__caja-titulo {
+    color:#111;
+    text-shadow: 0 0 2px var(--principal-color);
+    font-family: var(--titulos);
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.precios__texto {
+    font-weight: bolder;
+    margin: 1rem 0;
+   align-self: start;
+}
+
+.precios__cont-lista {
+
+}
+
+.precios__lista {
+    margin-bottom: 0.4rem;
+}
+
+.precios__cont-lista-ul {
+   list-style-type: square;
+}
+
+.precios__lista-p {
+    font-style: italic;
+    margin-bottom: 0.3rem;
+}
