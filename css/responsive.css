@@ -32,6 +32,13 @@
   }
 
 
+  @media screen and (min-width:650px) {
+    .lesbico__caja {
+      width: 60%;
+    }
+  }
+
+
 
 
 
@@ -83,11 +90,64 @@
           line-height: 1.6;
           margin-top: 6rem;
       }
+
+      /*Precios*/
+      .precios__lugar {
+        margin-top: 2rem;
+      }
+
+      .precios__cont {
+        margin: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 85%;
+      }
+
+      .precios__caja {
+        width: 45%;
+      }
+
+      .precios__lista span {
+        margin-left: 1rem;
+      }
+
+      /*lesbico*/
+      .lesbico__cont-cajas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+      }
+
+      .lesbico__caja {
+        width: 40%;
+        padding: 2rem; 
+      }
   }
 
 
   @media screen and (min-width:992px) {
     .texto {
         width: 60%; 
+    }
+
+    .precios__cont {
+      width: 70%;
+    }
+
+    .precios__caja {
+      width: 40%;
+    }
+
+    .lesbico__caja {
+      width: 25%;
+    }
+
+    .primer {
+      align-self: flex-end;
+    }
+
+    .medio {
+      align-self:flex-end ;
     }
   }

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root {
+    --principal-color: #D40D84;
+    --titulos: 'Chango', cursive;
+    --texto: 'PT Sans', sans-serif;
+  }
+
+  .lesbico {
+      max-width: 100vw;
+      max-height: 100vh;
+  }
+
+  .lesbico__titulo {
+      color:var(--principal-color);
+      font-family: var(--titulos);
+      text-align: center;
+      margin: 2rem 0;
+  }
+
+  .lesbico__cont-cajas {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+      font-family: var(--texto);
+  }
+
+  .lesbico__caja {
+      width: 75%;
+      background-color:rgba(208, 188, 188, .2);
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      padding: 2rem 3rem; 
+  }
+
+  .lesbico__subtitulo {
+      color:#000;
+      text-shadow: 0px 0px 6px  var(--principal-color);
+      font-family: var(--titulos);
+      margin-bottom: 1rem;
+      text-align: center;
+      font-weight: bolder;
+  }
+
+  .lesbico__precio {
+      font-size: 4rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-weight: bolder;
+  }
+
+  .lesbico__precio span {
+      font-size: 1rem;
+      margin-left: -10px;
+  }
+
+  .lesbico__texto {
+      font-size: 1rem;
+      text-align: left;
+      line-height: 2;
+  }
+
