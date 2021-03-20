@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 :root {
     --principal-color: #D40D84;
-    --titulos: 'Chango', cursive;
-    --texto: 'PT Sans', sans-serif;
+    --titulos:'Fjalla One', sans-serif;
+    --texto: 'Pangolin', cursive;
   }
 
 
@@ -16,6 +16,7 @@
   }
   
   body {
+    font-family: var(--texto);
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, rgba(67, 67, 67, 0.9), rgba(0, 0, 0, 0.9)), url(../img/fondo.jpg);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, rgba(67, 67, 67, 0.9), rgba(0, 0, 0, 0.9)), url(../img/fondo.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -23,6 +24,24 @@
     background-attachment: fixed;
     background-position: center right;
   }
+
+  h1, h2, h4 {
+    font-family: var(--titulos);
+  }
+
+ h1 {
+   font-size: 2rem;
+ }
+
+ h2 {
+   font-size: 1.5rem;
+ }
+
+ h3 {
+   font-size: 1.2rem;
+   letter-spacing: 0.3rem;
+   text-transform: uppercase;
+ }
   
   video {
     position:fixed;
@@ -50,18 +69,15 @@
       margin-top: 2rem;
       color:var(--principal-color);
       text-align: left;
-      font-size: 1.8rem;
-      font-family: var(--titulos);
-      letter-spacing: 0.05rem;
-      line-height: 2;
+      letter-spacing: 0.5rem;
+      line-height: 1.5;
   }
 
   .header__subtitulo {
     color:#ccc;
-    margin-top: 0.2rem;
     text-align: right;
     text-shadow: 0px 0px 6px var(--principal-color);
-    font-size: 0.9rem;
+    font-family: var(--texto);
   }
 
 
@@ -161,7 +177,7 @@
     margin-top: 2rem;
     text-align: left;
     line-height: 1.6;
-    font-family: var(--texto);
+    font-size: 1rem;
   }
   
 

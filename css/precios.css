@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
-:root {
-    --principal-color: #D40D84;
-    --titulos: 'Chango', cursive;
-    --texto: 'PT Sans', sans-serif;
-  }
-
 
 .precios {
     width: 100vw;
@@ -15,11 +6,11 @@
 }
 
 .precios__lugar {
-    color:var(--principal-color);
-    font-family: var(--titulos);
+    color:#fff;
     text-align: center;
     margin-bottom: 2rem;
     letter-spacing: 1rem;
+    text-transform: uppercase;
 }
 
 .precios__cont {
@@ -34,19 +25,17 @@
 .precios__caja {
     background-color: rgba(208, 188, 188, .3);
     margin: 1rem 0;
-    width: 70%;
+    width: 80%;
     padding: 2rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: var(--texto);
 }
 
 .precios__caja-titulo {
     color:#000;
-    text-shadow: 0 0 2px var(--principal-color);
-    font-family: var(--titulos);
+    text-shadow: 0 0 6px var(--principal-color);
     text-align: center;
     margin-bottom: 1rem;
     font-weight: bolder;
@@ -58,14 +47,22 @@
    align-self: start;
 }
 
+.precios__cont-lista-ul {
+    color:var(--principal-color);
+    font-size: 1.2rem;
+}
+
 .precios__lista {
     margin-bottom: 0.4rem;
 }
+
 
 .precios__lista span {
     font-weight: bold;
     font-style: italic;
     margin-left: 2rem;
+    font-size: 1rem;
+    color:#000;
 }
 
 
@@ -74,3 +71,4 @@
     font-style: italic;
     margin-bottom: 0.3rem;
 }
+
