@@ -1,0 +1,88 @@
+:root {
+    --principal-color: #D40D84;
+}
+
+.modelo__titulo {
+    text-align: center;
+    color:#fff;
+    margin: 2rem 0;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+}
+
+.modelo__cont-cajas {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    
+    
+}
+
+.modelo__caja {
+    width: 35%;
+    min-height: 230px;
+    margin-bottom: 1rem;
+    position: relative;
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgba(51, 51, 153, 0.8), rgba(255, 0, 204, 0.8));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(51, 51, 153, 0.8), rgba(255, 0, 204, 0.8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: 30;
+    cursor: pointer;
+}
+
+
+.modelo__nombre {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    color:var(--principal-color);
+    background-color: #323232;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px 0 0 0;
+    display: none;
+    z-index: 3;
+}
+
+
+.modelo__boton {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-left:-45%;
+    padding: 0.5rem;
+    border: none;
+    background-color: #323232;
+    border-radius: 10px;
+    display: none;
+    font-size: 1rem;
+    z-index: 50;
+}
+
+.modelo__boton a {
+    color:var(--principal-color);
+    outline: none;
+    cursor: pointer;
+}
+
+
+.ver {
+    display: block;
+}
+
+
+.modelo__foto {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    z-index: -1;
+    transition: opacity .4s ease-in;
+}
+
+.modelo__foto:hover {
+    opacity: 0.5;
+}
+

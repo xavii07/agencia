@@ -42,6 +42,14 @@
    letter-spacing: 0.3rem;
    text-transform: uppercase;
  }
+
+ button {
+  font-family: var(--texto);
+ }
+
+ a {
+   text-decoration: none;
+ }
   
   video {
     position:fixed;
@@ -122,6 +130,7 @@
     align-items: center;
     position: fixed;
     top: 2rem;
+    z-index: 100;
   }
   
   .menu__lista {
@@ -206,6 +215,11 @@
 
   .bxl-telegram {
     color:#0088cc;
+  }
+
+  .bxs-heart {
+    font-size:1rem;
+    color:#e50914;
   }
 
   .bxs-phone-call {

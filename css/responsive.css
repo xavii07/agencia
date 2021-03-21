@@ -136,6 +136,22 @@
         width: 40%;
         padding: 2rem; 
       }
+
+      /*modelos*/
+    .modelo__caja {
+      width: 30%;
+      min-height: 300px;
+
+    }
+
+  
+
+    /*boton ver modelo*/
+    .modelo__boton {
+      width: 80%;
+      margin-left:-40%;
+      padding: 1rem 2rem ;
+    }
   }
 
 
@@ -184,5 +200,12 @@
     .lesbico__texto {
       line-height: 2;
   }
+
+  /*modelos*/
+    .modelo__caja {
+      width: 22%;
+      min-height: 400px;
+
+    }
 
   }
